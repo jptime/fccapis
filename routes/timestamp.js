@@ -19,8 +19,8 @@ month[10] = "November";
 month[11] = "December";
 
 router.get('/', function(req, res){
-    
-    
+     res.render('timestamp.jade');
+    res.end();
 })
 router.get('/:date', function(req, res){
     var userDate = req.params.date;

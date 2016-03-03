@@ -14,7 +14,7 @@ app.set('view engine', 'jade');
 app.get('/', function(req, res){
     
     res.render('index.jade');
-    
+    res.end();
 })
 
 app.use('/api/timestamp', require('./routes/timestamp.js'));
