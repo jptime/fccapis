@@ -1,0 +1,1 @@
+module.exports = "mongodb://database:databasepass@ds039185.mongolab.com:39185/urlshorten"
