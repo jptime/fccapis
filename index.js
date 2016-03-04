@@ -21,7 +21,7 @@ app.use('/api/timestamp', require('./routes/timestamp.js'));
 app.use('/api/reqparser', require('./routes/reqparser.js'));
 app.use('/api/urlshorten', require('./routes/urlshorten.js'));
 app.use('/api/imagesearch', require('./routes/imagesearch.js'));
-
+app.use('/api/filemetadata', require('./routes/filemeta.js'));
 
 var server = app.listen(port, function(){
 
