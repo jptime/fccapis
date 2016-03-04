@@ -2,7 +2,8 @@
   "name": "fccapis",
   "version": "1.0.0",
   "engines": {
-    "node": "4.1.1"
+    "node": "4.1.1",
+    "npm": "3.5.2"
   },
   "description": "Various API projects",
   "main": "index.js",
